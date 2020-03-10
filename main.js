@@ -4,6 +4,7 @@ const button = document.querySelector('#button');
 const pista = document.querySelector('#pista');
 const attemps = document.querySelector('#attemps');
 const quantity = document.querySelector('#quantity');
+const icon = document.querySelector('#icon');
 
 
 
@@ -35,10 +36,13 @@ console.log(input.value);
     if(input.value<randomNumber){
         pista.innerHTML = 'Demasiado bajo';
      }
-     if(input.value==randomNumber){
-        pista.innerHTML = '¡Has ganado campeona!';
+     else if(input.value==randomNumber){
+        pista.innerHTML = '¡Has ganado campeona!🤟🏾';
+        pista.classList.remove('loser');
+        pista.classList.add('winner');
+
      }
-     if(input.value<0 || input.value>100){
+     else if(input.value<0 || input.value>100 || input.value===''){
         pista.innerHTML = 'El número debe estar entre 1 y 100';
      }
 }
