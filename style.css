@@ -42,7 +42,13 @@ body{
     border: 5px solid lightpink;
 }
 .quantity{
-    color:lightskyblue;
     font-weight: bold;
     font-family: 40px;
+}
+
+.red{
+   color:red;
+}
+.blue{
+    color:lightskyblue;
 }

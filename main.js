@@ -3,7 +3,7 @@ const input = document.querySelector('#input-number');
 const button = document.querySelector('#button');
 const pista = document.querySelector('#pista');
 const attemps = document.querySelector('#attemps');
-const quantity = document.querySelector('.quantity');
+const quantity = document.querySelector('#quantity');
 
 
 
@@ -18,6 +18,10 @@ function increaseQuantity(){
    let finalQuantity = parseInt(quantity.innerHTML);
       finalQuantity = finalQuantity +=1;
       quantity.innerHTML = finalQuantity;
+      if(finalQuantity >10){
+         quantity.classList.remove('blue');
+         quantity.classList.add('red');
+      }
 
 }
 
