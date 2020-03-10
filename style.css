@@ -1,0 +1,24 @@
+.wrapped{
+    display:flex;
+    flex-direction:column;
+}
+.form{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+}
+.input-number{
+    margin:10px;
+}
+.button{
+    background-color: lightskyblue;
+}
+
+.pista{
+    margin-top:20px;
+    border: 1px solid lightgreen;
+}
+.attemps{
+    margin-top: 5px;
+    border: 1px solid lightgreen;
+}
