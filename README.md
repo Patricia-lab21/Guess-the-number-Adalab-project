@@ -1,3 +1,2 @@
-# Guess-the-number-Adalab-project
-Adalab Project- Guess the number!
-Creado con Javascript, mini juego para adivinar un número entre el 1 y el 100.
+Adalab Project- Guess the number!💯
+Created with Javascript, mini game to guess a number between 1 and 100.
